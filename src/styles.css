@@ -136,7 +136,9 @@ table {
   --zinc-800: #27272a;
   --error: #ef4444;
 }
-
+main {
+  height: calc(100vh - 375px);
+}
 /* NAVBAR */
 .navbar {
   padding: 1rem;
@@ -159,8 +161,18 @@ table {
   letter-spacing: -0.4px;
   text-transform: capitalize;
 }
-p {
-  color: var(--primary-black);
+/* SECTIONS */
+section {
+  padding: 40px 16px;
+}
+/* HERO PAGE */
+/* SKILLS */
+/* EXPERIENCE */
+/* ABOUT ME */
+/* PROJECTS */
+/* FOOTER */
+footer {
+  padding: 20px 16px;
 }
 /* Media Queries */
 @media only screen and (max-width: 600px) {
