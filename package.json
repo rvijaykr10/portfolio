@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "mkdir -p dist",
     "build-html": "html-minifier-terser index.html --collapse-whitespace --output=dist/index.html",
-    "build-css": "cleancss -o dist/style.min.css styles.css",
+    "build-css": "cleancss -o dist/styles.css styles.css",
     "build": "npm run prebuild && npm run build-html && npm run build-css"
   },
   "keywords": [],
