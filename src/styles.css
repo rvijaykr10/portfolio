@@ -228,6 +228,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 .skills .skills-title {
   display: flex;
@@ -277,6 +278,12 @@ footer {
 }
 @media only screen and (min-width: 600px) {
   /* Styles for above mobile devices */
+  .navbar {
+    padding: 1.5rem 5rem;
+  }
+  section {
+    padding: 3.75rem 5rem;
+  }
   .hero {
     display: flex;
     flex-direction: row-reverse;
