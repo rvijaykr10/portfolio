@@ -221,6 +221,14 @@ section {
   /* justify-content: space-around; */
 }
 /* SKILLS */
+.skills .skills-list span {
+  height: 100px;
+  width: 100px;
+  border: 2px var(--primary-black) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .skills .skills-title {
   display: flex;
   padding: 20px 0px;
