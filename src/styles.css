@@ -137,7 +137,7 @@ table {
   --error: #ef4444;
 }
 main {
-  height: calc(100vh - 375px);
+  height: calc(100vh - 8rem);
 }
 /* NAVBAR */
 .navbar {
@@ -163,7 +163,7 @@ main {
 }
 /* SECTIONS */
 section {
-  padding: 40px 16px;
+  padding: 3rem 1rem;
 }
 /* HERO PAGE */
 /* SKILLS */
@@ -173,6 +173,9 @@ section {
 /* FOOTER */
 footer {
   padding: 20px 16px;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  text-align: center;
 }
 /* Media Queries */
 @media only screen and (max-width: 600px) {
