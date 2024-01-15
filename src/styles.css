@@ -213,7 +213,12 @@ section {
 
 .hero .hero__social {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+}
+
+.hero .hero__social span {
+  margin-right: 24px;
+  /* justify-content: space-around; */
 }
 /* SKILLS */
 /* EXPERIENCE */
