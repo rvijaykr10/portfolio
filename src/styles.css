@@ -138,6 +138,7 @@ table {
 }
 main {
   height: calc(100vh - 8rem);
+  height: calc(100dvh - 8rem);
 }
 /* NAVBAR */
 .navbar {
