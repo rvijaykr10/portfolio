@@ -1,3 +1,4 @@
+/* Eric Meyer's Reset CSS */
 html,
 body,
 div,
@@ -123,6 +124,64 @@ table {
   border-spacing: 0;
 }
 
+/* Portfolio */
+:root {
+  --primary-black: #000;
+  --primary-neutral: #404040;
+  --primary-white: #fff;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-500: #71717a;
+  --zinc-800: #27272a;
+  --error: #ef4444;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .logo-heading {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo-heading .heading {
+  color: var(--primary-black);
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+}
 p {
-  color: blueviolet;
+  color: var(--primary-black);
+}
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for small laptops */
+}
+@media only screen and (min-width: 1441px) {
+  /* Styles for large screens */
+}
+@media only screen and (orientation: portrait) {
+  /* Styles for portrait mode */
+}
+@media only screen and (orientation: landscape) {
+  /* Styles for landscape mode */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+  /* Styles for high-resolution displays */
 }
