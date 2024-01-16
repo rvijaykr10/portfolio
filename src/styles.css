@@ -275,22 +275,118 @@ footer {
 /* Media Queries */
 @media only screen and (max-width: 600px) {
   /* Styles for mobile devices */
+  .hero .hero__image {
+    display: block;
+  }
+  .hero .hero__image__large {
+    display: none;
+  }
+
+  .navbar .nav__list {
+    display: none;
+  }
 }
 @media only screen and (min-width: 600px) {
   /* Styles for above mobile devices */
   .navbar {
     padding: 1.5rem 5rem;
   }
+  .navbar .nav__ham {
+    display: none;
+  }
+
+  .navbar .nav__list {
+    display: block;
+  }
+
+  .navbar .nav__list span {
+    color: var(--primary-black);
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-left: 32px;
+  }
   section {
     padding: 3.75rem 5rem;
   }
+  /* HERO PAGE */
   .hero {
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
   }
-  .hero .hero__image,
-  .hero__text__social {
-    width: 50%;
+  .hero .hero__image {
+    display: none;
+  }
+  .hero .hero__text__social {
+    position: absolute;
+    left: 80px;
+    height: 80%;
+  }
+
+  .hero .hero__text .heading .heading-1,
+  .heading-5 {
+    color: var(--primary-black);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+  }
+  .hero .hero__text .heading .heading-2,
+  .heading-3,
+  .heading-6 {
+    color: var(--primary-black);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+  }
+  .hero .hero__text .heading .heading-4 {
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+  }
+
+  .hero .hero__text .description {
+    color: var(--zinc-500);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 35%;
+  }
+
+  /* SKILLS */
+  .skills .skills-title .text-1 {
+    color: var(--primary-black);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+  }
+  .skills .skills-title .text-2 {
+    color: var(--primary-black);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.96px;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
