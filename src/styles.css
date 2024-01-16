@@ -327,6 +327,10 @@ footer {
     left: 80px;
     height: 80%;
   }
+  .hero .hero__social {
+    position: absolute;
+    bottom: 0;
+  }
 
   .hero .hero__text .heading .heading-1,
   .heading-5 {
