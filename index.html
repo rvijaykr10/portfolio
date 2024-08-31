@@ -1,111 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vijay's Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <div class="header__container container">
-      <h1 class="header__title">Vijay's Portfolio</h1>
-      <nav class="header__nav nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-        </ul>
-      </nav>
-      <button id="theme-toggle" class="header__toggle-btn" aria-label="Switch to Dark Mode">
-        <i class="fas fa-moon"></i>
-      </button>
-    </div>
-  </header>
-
-  <main class="main">
-    <section id="home" class="main__section home">
-      <div class="home__container container">
-        <h2 class="home__title">Welcome to My Portfolio</h2>
-        <p class="home__description">
-          I am a Full-Stack Developer with around 6 years of experience in building and maintaining complex web applications. My expertise spans across various technologies, allowing me to create robust solutions that meet modern web challenges. With a solid background in both front-end and back-end development, I am passionate about crafting seamless and scalable user experiences.
-        </p>
-        <a href="#projects" class="btn home__cta">View My Projects</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <h1 class="header__title">Vijay's Portfolio</h1>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          id="theme-toggle"
+          class="header__toggle-btn"
+          aria-label="Switch to Dark Mode"
+        >
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
-    </section>
+    </header>
 
-    <section id="projects" class="main__section projects">
-      <div class="projects__container container">
-        <h2 class="projects__title">Projects</h2>
-        <div class="projects__card">
-          <h3 class="projects__card-title">Blog Service API</h3>
-          <p class="projects__card-description">
-            Developed a comprehensive blog service API using FastAPI. The API includes authentication, CRUD operations, and robust validation. Designed with best practices to ensure scalability and performance.
+    <main class="main">
+      <section id="home" class="main__section home">
+        <div class="home__container container">
+          <h2 class="home__title">Welcome to My Portfolio</h2>
+          <p class="home__description">
+            I am a Full-Stack Developer with around 6 years of experience in
+            building and maintaining complex web applications. My expertise
+            spans across various technologies, allowing me to create robust
+            solutions that meet modern web challenges. With a solid background
+            in both front-end and back-end development, I am passionate about
+            crafting seamless and scalable user experiences.
           </p>
-          <a href="https://github.com/rvijaykr10/blog-service" target="_blank" class="projects__card-link">View on GitHub</a>
+          <a href="#projects" class="btn home__cta">View My Projects</a>
         </div>
-        <div class="projects__card">
-          <h3 class="projects__card-title">Task Manager App</h3>
-          <p class="projects__card-description">
-            Created a task manager application with authentication and CRUD functionality. The app allows users to manage tasks effectively and securely.
-          </p>
-          <a href="https://github.com/rvijaykr10/task-manager-mern-app" target="_blank" class="projects__card-link">View on GitHub</a>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects__card">
+            <h3>Blog Service API</h3>
+            <p>
+              Blog Service API built with FastAPI, including authentication,
+              CRUD operations, validations, and following good practices.
+            </p>
+            <a
+              href="https://blog-api.codecraftwithvijay.com/docs"
+              class="projects__card-link"
+              target="_blank"
+              >View Project</a
+            >
+            |
+            <a
+              href="https://github.com/rvijaykr10/blog-service"
+              class="projects__card-link"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="projects__card">
+            <h3>Task Manager App</h3>
+            <p>
+              A task manager application with user authentication and CRUD
+              functionalities.
+            </p>
+            <a
+              href="https://task-manager.codecraftwithvijay.com/login"
+              class="projects__card-link"
+              target="_blank"
+              >View Project</a
+            >
+            |
+            <a
+              href="https://github.com/rvijaykr10/task-manager-mern-app"
+              class="projects__card-link"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="projects__card">
+            <h3>Amazon Clone</h3>
+            <p>
+              A responsive Amazon clone built with React and other modern web
+              technologies.
+            </p>
+            <a
+              href="https://amazon.codecraftwithvijay.com/"
+              class="projects__card-link"
+              target="_blank"
+              >View Project</a
+            >
+            |
+            <a
+              href="https://github.com/rvijaykr10/nextjs-amazon"
+              class="projects__card-link"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="projects__card">
+            <h3>Netflix Clone</h3>
+            <p>
+              A responsive Netflix clone developed with React, featuring dynamic
+              content and interactive features.
+            </p>
+            <a
+              href="https://netflix.codecraftwithvijay.com/"
+              class="projects__card-link"
+              target="_blank"
+              >View Project</a
+            >
+            |
+            <a
+              href="https://github.com/rvijaykr10/nextjs-netflix"
+              class="projects__card-link"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
         </div>
-        <div class="projects__card">
-          <h3 class="projects__card-title">Amazon Clone</h3>
-          <p class="projects__card-description">
-            Built a responsive e-commerce platform inspired by Amazon. Features include product listings, user authentication, and a shopping cart.
-          </p>
-          <a href="https://github.com/rvijaykr10/nextjs-amazon" target="_blank" class="projects__card-link">View on GitHub</a>
+      </section>
+
+      <section id="skills" class="main__section skills">
+        <div class="skills__container container">
+          <h2 class="skills__title">Skills</h2>
+          <div class="skills__grid">
+            <div class="skills__category">
+              <h3 class="skills__category-title">Frontend</h3>
+              <p class="skills__category-list">
+                React.js, Next.js, HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="skills__category">
+              <h3 class="skills__category-title">Backend</h3>
+              <p class="skills__category-list">Node.js, Python, FastAPI</p>
+            </div>
+            <div class="skills__category">
+              <h3 class="skills__category-title">Database</h3>
+              <p class="skills__category-list">MongoDB, PostgreSQL</p>
+            </div>
+            <div class="skills__category">
+              <h3 class="skills__category-title">Cloud & DevOps</h3>
+              <p class="skills__category-list">AWS, Docker, CI/CD</p>
+            </div>
+          </div>
         </div>
-        <div class="projects__card">
-          <h3 class="projects__card-title">Netflix Clone</h3>
-          <p class="projects__card-description">
-            Developed a Netflix clone with a responsive design. The application allows users to browse and stream content similar to Netflix.
-          </p>
-          <a href="https://github.com/rvijaykr10/nextjs-netflix" target="_blank" class="projects__card-link">View on GitHub</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__text">&copy; 2024 Vijay. All rights reserved.</p>
+        <div class="footer__social-links">
+          <a
+            href="https://www.linkedin.com/in/r-vijay-kumar-0b1a48115"
+            target="_blank"
+            class="footer__link"
+            aria-label="LinkedIn"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/rvijaykr10"
+            target="_blank"
+            class="footer__link"
+            aria-label="GitHub"
+            >GitHub</a
+          >
+          <!-- <a href="mailto:example@example.com" class="footer__link" aria-label="Email">Email</a> -->
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section id="skills" class="main__section skills">
-      <div class="skills__container container">
-        <h2 class="skills__title">Skills</h2>
-        <div class="skills__grid">
-          <div class="skills__category">
-            <h3 class="skills__category-title">Frontend</h3>
-            <p class="skills__category-list">React.js, Next.js, HTML, CSS, JavaScript</p>
-          </div>
-          <div class="skills__category">
-            <h3 class="skills__category-title">Backend</h3>
-            <p class="skills__category-list">Node.js, Python, FastAPI</p>
-          </div>
-          <div class="skills__category">
-            <h3 class="skills__category-title">Database</h3>
-            <p class="skills__category-list">MongoDB, PostgreSQL</p>
-          </div>
-          <div class="skills__category">
-            <h3 class="skills__category-title">Cloud & DevOps</h3>
-            <p class="skills__category-list">AWS, Docker, CI/CD</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container container">
-      <p class="footer__text">&copy; 2024 Vijay. All rights reserved.</p>
-      <div class="footer__social-links">
-        <a href="https://www.linkedin.com/in/r-vijay-kumar-0b1a48115" target="_blank" class="footer__link" aria-label="LinkedIn">LinkedIn</a>
-        <a href="https://github.com/rvijaykr10" target="_blank" class="footer__link" aria-label="GitHub">GitHub</a>
-        <!-- <a href="mailto:example@example.com" class="footer__link" aria-label="Email">Email</a> -->
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
