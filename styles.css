@@ -204,6 +204,7 @@ body.dark-mode .footer {
 }
 
 body.dark-mode .header__title,
+body.dark-mode .highlighted-name,
 body.dark-mode .nav__link,
 body.dark-mode .footer__text,
 body.dark-mode .footer__link {
