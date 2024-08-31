@@ -241,6 +241,8 @@ body.dark-mode .header__toggle-btn {
   }
 
   .projects__card,
+  .projects__title,
+  .skills__title,
   .skills__category {
     text-align: center;
   }
