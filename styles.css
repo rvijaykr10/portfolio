@@ -160,6 +160,18 @@ body {
   color: #0056b3;
 }
 
+.projects__card ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+}
+
+.projects__card li {
+  margin-bottom: 0.3rem;
+}
+
+
 /* Skills */
 .skills__grid {
   display: flex;

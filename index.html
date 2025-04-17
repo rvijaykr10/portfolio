@@ -1,219 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Vijay Kumar</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__container container">
-        <div class="header__content">
-          <h1 class="header__title">Portfolio</h1>
-          <nav class="header__nav nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#home" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="#projects" class="nav__link">Projects</a>
-              </li>
-              <li class="nav__item">
-                <a href="#skills" class="nav__link">Skills</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <button
-          id="theme-toggle"
-          class="header__toggle-btn"
-          aria-label="Switch to Dark Mode"
-        >
-          <i class="fas fa-moon"></i>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Vijay Kumar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__content">
+        <h1 class="header__title">Portfolio</h1>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+      <button id="theme-toggle" class="header__toggle-btn" aria-label="Switch to Dark Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
 
-    <main class="main">
-      <section id="home" class="main__section home">
-        <div class="home__container container">
-          <h2 class="home__title">Welcome to My Portfolio</h2>
-          <p class="home__description">
-            I am <span class="highlighted-name">Vijay Kumar</span>, a seasoned
-            Full-Stack Developer, skilled in building dynamic and
-            high-performing web applications. With a strong background in
-            JavaScript, React, Node.js, and Python, I have developed a wide
-            range of solutions that are both scalable and user-centric. I
-            specialize in transforming UI/UX designs into seamless digital
-            experiences by collaborating closely with cross-functional teams,
-            including designers and backend engineers. My development approach
-            is grounded in best practices such as modularity, encapsulation, and
-            functional programming, ensuring that every line of code is clean,
-            efficient, and robust. Mentorship is a passion of mine—I enjoy
-            guiding and supporting junior developers as they navigate their own
-            professional journeys. I’m always eager to explore new technologies,
-            stay up-to-date with the latest industry trends, and embrace
-            innovation in every project I undertake. I thrive on solving complex
-            problems, architecting scalable solutions, and optimizing
-            applications for performance and usability. Teamwork is at the core
-            of my values, and I’m motivated by the exchange of ideas and
-            collaborative problem-solving to deliver exceptional digital
-            experiences. If you share a passion for web development, innovation,
-            and continuous learning, let’s connect! I'm always excited to
-            discuss new opportunities and challenges. 🚀
-          </p>
-          <a href="#projects" class="btn home__cta">View My Projects</a>
-        </div>
-      </section>
-
-      <section id="projects" class="projects">
-        <div class="container">
-          <h2 class="projects__title">Projects</h2>
-          <div class="projects__card">
-            <h3>Task Manager App - MERN Stack</h3>
-            <p>
-              Built a full-stack Task Manager application using the MERN stack
-              (MongoDB, Express.js, React, and Node.js) with features like user
-              authentication, task creation, editing, deletion, and real-time
-              updates.
-            </p>
-            <a
-              href="https://task-manager.codecraftwithvijay.com/login"
-              class="projects__card-link"
-              target="_blank"
-              >View Project</a
-            >
-            |
-            <a
-              href="https://github.com/rvijaykr10/task-manager-mern-app"
-              class="projects__card-link"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-          <div class="projects__card">
-            <h3>Books Application - FastAPI, GraphQL, ReactJS</h3>
-            <p>
-              Built books CRUD application using FastAPI for the
-              backend, integrated with GraphQL through the Strawberry library,
-              and ReactJS for the frontend, leveraging Apollo Client for seamless
-              data fetching.
-            </p>
-            <a
-              href="https://react-graphql-fawn.vercel.app/"
-              class="projects__card-link"
-              target="_blank"
-              >View Project</a
-            >
-            |
-            <a
-              href="https://github.com/rvijaykr10/react-graphql"
-              class="projects__card-link"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-          <div class="projects__card">
-            <h3>Blog Service API - FastAPI</h3>
-            <p>
-              Developed a robust Blog Service API using FastAPI, incorporating
-              user authentication, CRUD operations, data validation, and error
-              handling, adhering to industry best practices for security and
-              performance.
-            </p>
-            <a
-              href="https://blog-api.codecraftwithvijay.com/docs"
-              class="projects__card-link"
-              target="_blank"
-              >View Project</a
-            >
-            |
-            <a
-              href="https://github.com/rvijaykr10/blog-service"
-              class="projects__card-link"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-          <div class="projects__card">
-            <h3>Netflix Clone - Next JS + Responsive UI</h3>
-            <p>
-              Created a visually appealing, responsive clone of Netflix using
-              React, with dynamic content loading, interactive user interfaces,
-              and seamless navigation, providing an immersive user experience.
-            </p>
-            <a
-              href="https://netflix.codecraftwithvijay.com/"
-              class="projects__card-link"
-              target="_blank"
-              >View Project</a
-            >
-            |
-            <a
-              href="https://github.com/rvijaykr10/nextjs-netflix"
-              class="projects__card-link"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section id="skills" class="main__section skills">
-        <div class="skills__container container">
-          <h2 class="skills__title">Skills</h2>
-          <div class="skills__grid">
-            <div class="skills__category">
-              <h3 class="skills__category-title">Frontend</h3>
-              <p class="skills__category-list">
-                React.js, Next.js, HTML, CSS, JavaScript, Apollo Client
-              </p>
-            </div>
-            <div class="skills__category">
-              <h3 class="skills__category-title">Backend</h3>
-              <p class="skills__category-list">
-                Node.js, Python, FastAPI, GraphQL (Strawberry)
-              </p>
-            </div>
-            <div class="skills__category">
-              <h3 class="skills__category-title">Database</h3>
-              <p class="skills__category-list">MongoDB, PostgreSQL</p>
-            </div>
-            <div class="skills__category">
-              <h3 class="skills__category-title">Cloud & DevOps</h3>
-              <p class="skills__category-list">AWS, Docker, CI/CD</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container container">
-        <p class="footer__text">
-          &copy; 2025 Vijay Kumar. All rights reserved.
+  <main class="main">
+    <section id="home" class="main__section home">
+      <div class="home__container container">
+        <h2 class="home__title">Welcome to My Portfolio</h2>
+        <p class="home__description">
+          I am <span class="highlighted-name">Vijay Kumar</span>, a seasoned
+          Full-Stack Developer, skilled in building dynamic and
+          high-performing web applications. With a strong background in
+          JavaScript, React, Node.js, and Python, I have developed a wide
+          range of solutions that are both scalable and user-centric. I
+          specialize in transforming UI/UX designs into seamless digital
+          experiences by collaborating closely with cross-functional teams,
+          including designers and backend engineers. My development approach
+          is grounded in best practices such as modularity, encapsulation, and
+          functional programming, ensuring that every line of code is clean,
+          efficient, and robust. Mentorship is a passion of mine—I enjoy
+          guiding and supporting junior developers as they navigate their own
+          professional journeys. I’m always eager to explore new technologies,
+          stay up-to-date with the latest industry trends, and embrace
+          innovation in every project I undertake. I thrive on solving complex
+          problems, architecting scalable solutions, and optimizing
+          applications for performance and usability. Teamwork is at the core
+          of my values, and I’m motivated by the exchange of ideas and
+          collaborative problem-solving to deliver exceptional digital
+          experiences. If you share a passion for web development, innovation,
+          and continuous learning, let’s connect! I'm always excited to
+          discuss new opportunities and challenges. 🚀
         </p>
-        <div class="footer__social-links">
-          <a
-            href="https://github.com/rvijaykr10"
-            target="_blank"
-            class="footer__link"
-            aria-label="GitHub"
-            >GitHub</a
-          >
+        <a href="#projects" class="btn home__cta">View My Projects</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="projects__title">Projects</h2>
+
+
+        <div class="projects__card">
+          <h3>AI Developer Tools - GPT Powered</h3>
+          <p>
+            A powerful collection of developer utilities built using various
+            GPT models to enhance productivity and streamline development
+            tasks. This toolset includes:
+          </p>
+          <ul>
+            <li>
+              <strong>Code Explainer</strong> – Understand complex code in
+              plain English.
+            </li>
+            <li>
+              <strong>README Generator</strong> – Auto-generate clean and
+              effective project documentation.
+            </li>
+            <li>
+              <strong>Unit Test Generator</strong> – Instantly produce unit
+              tests for your functions.
+            </li>
+            <li>
+              <strong>Shell Command Helper</strong> – Convert instructions
+              into accurate shell commands.
+            </li>
+            <li>
+              <strong>Dockerfile Generator</strong> – Quickly create
+              Dockerfiles from tech stack input.
+            </li>
+            <li>
+              <strong>Prompt Improver</strong> – Optimize AI prompts for
+              better output.
+            </li>
+            <li>
+              <strong>Code Reviewer</strong> – Automated reviews for
+              cleaner, more maintainable code.
+            </li>
+            <li>
+              <strong>Text to SQL</strong> – Translate natural language
+              queries into SQL.
+            </li>
+            <li>
+              <strong>SQL Optimizer</strong> – Analyze and improve SQL
+              performance.
+            </li>
+          </ul>
+          <a href="https://ai-tools.codecipher.dev/" class="projects__card-link" target="_blank">View Project</a>
+        </div>
+
+
+        <div class="projects__card">
+          <h3>Task Manager App - MERN Stack</h3>
+          <p>
+            Built a full-stack Task Manager application using the MERN stack
+            (MongoDB, Express.js, React, and Node.js) with features like user
+            authentication, task creation, editing, deletion, and real-time
+            updates.
+          </p>
+          <a href="https://github.com/rvijaykr10/task-manager-mern-app" class="projects__card-link"
+            target="_blank">GitHub</a>
+
+          |
+          <a href="https://task-manager.codecipher.dev/login" class="projects__card-link" target="_blank">View
+            Project</a>
+        </div>
+
+        <div class="projects__card">
+          <h3>Books Application - FastAPI, GraphQL, ReactJS</h3>
+          <p>
+            Built books CRUD application using FastAPI for the backend,
+            integrated with GraphQL through the Strawberry library, and
+            ReactJS for the frontend, leveraging Apollo Client for seamless
+            data fetching.
+          </p>
+          <a href="https://github.com/rvijaykr10/react-graphql" class="projects__card-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="projects__card">
+          <h3>Blog Service API - FastAPI</h3>
+          <p>
+            Developed a robust Blog Service API using FastAPI, incorporating
+            user authentication, CRUD operations, data validation, and error
+            handling, adhering to industry best practices for security and
+            performance.
+          </p>
+          <a href="https://github.com/rvijaykr10/blog-service" class="projects__card-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="projects__card">
+          <h3>Netflix Clone - Next JS + Responsive UI</h3>
+          <p>
+            Created a visually appealing, responsive clone of Netflix using
+            React, with dynamic content loading, interactive user interfaces,
+            and seamless navigation, providing an immersive user experience.
+          </p>
+          <a href="https://github.com/rvijaykr10/nextjs-netflix" class="projects__card-link" target="_blank">GitHub</a>
+          |
+          <a href="https://netflix.codecipher.dev/" class="projects__card-link" target="_blank">View Project</a>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section id="skills" class="main__section skills">
+      <div class="skills__container container">
+        <h2 class="skills__title">Skills</h2>
+        <div class="skills__grid">
+          <div class="skills__category">
+            <h3 class="skills__category-title">Frontend</h3>
+            <p class="skills__category-list">
+              React.js, Next.js, HTML, CSS, JavaScript, Apollo Client
+            </p>
+          </div>
+          <div class="skills__category">
+            <h3 class="skills__category-title">Backend</h3>
+            <p class="skills__category-list">
+              Node.js, Python, FastAPI, GraphQL (Strawberry)
+            </p>
+          </div>
+          <div class="skills__category">
+            <h3 class="skills__category-title">Database</h3>
+            <p class="skills__category-list">MongoDB, PostgreSQL</p>
+          </div>
+          <div class="skills__category">
+            <h3 class="skills__category-title">Cloud & DevOps</h3>
+            <p class="skills__category-list">AWS, Docker, CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__text">
+        &copy; 2025 Vijay Kumar. All rights reserved.
+      </p>
+      <div class="footer__social-links">
+        <a href="https://github.com/rvijaykr10" target="_blank" class="footer__link" aria-label="GitHub">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
